@@ -1,0 +1,147 @@
+.main {
+  display: flex;
+  /*flex-direction: column;*/
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right:3rem;
+  width:98%;
+
+}
+
+body {
+    width: 98%;
+    height: 98%;
+    padding: 1vh 1vw;
+}
+
+#butt {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#modStats {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.flex{
+    display:flex;
+    align-items:center;
+}
+
+#stockCont, #modcontainer, #predict, #dateCont, #modelType {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  padding: 10px;
+  width: 400px;
+}
+
+.dropdown-menu {
+    padding: 0 10px;
+    max-height: 300px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+    width: 369px;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+#map {
+    float: left;
+    padding: 1em;
+    padding-left:10px;
+    left:5px;
+}
+
+#table-wrapper {
+    padding: 1em;
+    position: relative;
+    float:right;
+    padding-right:10px;
+}
+
+#table-scroll {
+    height: 400px;
+    overflow: auto;
+    margin-top: 20px;,
+    /*display: table-header-group;*/
+    
+}
+#tit{
+    background-color:white
+}
+
+.tabhead thead {
+    /*display:table-header-group;*/
+    background: #FFBEAC;
+}
+
+#table-wrapper table {
+    width: 100%;
+}
+
+#table-wrapper table * {
+    
+    color: black;
+}
+
+#table-wrapper table .text {
+    position: absolute;
+    top: -20px;
+    z-index: 2;
+    height: 20px;
+    width: 25%;
+    /*border: 1px solid red;*/
+}
+
+label {
+  font-size: 16px;
+}
+
+
+table {
+  width:100%;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*background-color: #FFBEAC !important;*/
+}
+
+circle {
+    color: 'red';
+    stroke: "black";
+    stroke-width: "1.5";
+}
+/*
+path{
+    fill-opacity: 0.5;
+}
+*/
+th, td {
+  padding: 14px;
+}
+/*
+tr:hover { 
+  background: #3AD247 !important; 
+}
+
+*/
